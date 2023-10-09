@@ -2,4 +2,148 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="light_bg">#f5f5f7</color>
+
+    <!-- Atlanta Hawks -->
+    <color name="atlanta_hawks_red">#E03A3E</color>
+    <color name="atlanta_hawks_black">#000000</color>
+    <color name="atlanta_hawks_white">#FFFFFF</color>
+
+    <!-- Boston Celtics -->
+    <color name="boston_celtics_green">#008348</color>
+    <color name="boston_celtics_gold">#FFD700</color>
+
+    <!-- Brooklyn Nets -->
+    <color name="brooklyn_nets_black">#000000</color>
+    <color name="brooklyn_nets_white">#FFFFFF</color>
+
+    <!-- Charlotte Hornets -->
+    <color name="charlotte_hornets_teal">#00788C</color>
+    <color name="charlotte_hornets_purple">#2D3E50</color>
+
+    <!-- Chicago Bulls -->
+    <color name="chicago_bulls_red">#D40026</color>
+    <color name="chicago_bulls_black">#000000</color>
+    <color name="chicago_bulls_white">#FFFFFF</color>
+
+    <!-- Cleveland Cavaliers -->
+    <color name="cleveland_cavaliers_wine">#6F263D</color>
+    <color name="cleveland_cavaliers_gold">#FFB81C</color>
+    <color name="cleveland_cavaliers_navy">#041E42</color>
+
+    <!-- Dallas Mavericks -->
+    <color name="dallas_mavericks_navy">#00538C</color>
+    <color name="dallas_mavericks_silver">#B8C4CA</color>
+    <color name="dallas_mavericks_white">#000000</color>
+
+    <!-- Denver Nuggets -->
+    <color name="denver_nuggets_navy">#0E2240</color>
+    <color name="denver_nuggets_gold">#FEC524</color>
+    <color name="denver_nuggets_white">#8B2131</color>
+
+    <!-- Detroit Pistons -->
+    <color name="detroit_pistons_red">#C8102E</color>
+    <color name="detroit_pistons_white">#1D42BA</color>
+    <color name="detroit_pistons_blue">#FFFFFF</color>
+
+    <!-- Golden State Warriors -->
+    <color name="golden_state_warriors_blue">#1D428A</color>
+    <color name="golden_state_warriors_gold">#FFC72C</color>
+
+    <!-- Houston Rockets -->
+    <color name="houston_rockets_red">#CE1141</color>
+    <color name="houston_rockets_black">#000000</color>
+
+    <!-- Indiana Pacers -->
+    <color name="indiana_pacers_navy">#002D62</color>
+    <color name="indiana_pacers_gold">#FDBB30</color>
+
+    <!-- Los Angeles Clippers -->
+    <color name="los_angeles_clippers_red">#D60026</color>
+    <color name="los_angeles_clippers_blue">#0033A0</color>
+
+    <!-- Los Angeles Lakers -->
+    <color name="los_angeles_lakers_purple">#552583</color>
+    <color name="los_angeles_lakers_gold">#FFA300</color>
+
+    <!-- Memphis Grizzlies -->
+    <color name="memphis_grizzlies_navy">#00285E</color>
+    <color name="memphis_grizzlies_beale_street_blue">#6189B9</color>
+    <color name="memphis_grizzlies_smoke_blue">#12173F</color>
+    <color name="memphis_grizzlies_flat_black">#000000</color>
+
+    <!-- Miami Heat -->
+    <color name="miami_heat_red">#98002E</color>
+    <color name="miami_heat_black">#000000</color>
+    <color name="miami_heat_white">#FFFFFF</color>
+
+    <!-- Milwaukee Bucks -->
+    <color name="milwaukee_bucks_green">#00471B</color>
+    <color name="milwaukee_bucks_cream">#F0EBD2</color>
+
+    <!-- Minnesota Timberwolves -->
+    <color name="minnesota_timberwolves_blue">#0C2340</color>
+    <color name="minnesota_timberwolves_green">#78BE20</color>
+    <color name="minnesota_timberwolves_silver">#236192</color>
+    <color name="minnesota_timberwolves_white">#9EA2A2</color>
+
+    <!-- New Orleans Pelicans -->
+    <color name="new_orleans_pelicans_navy">#0C2340</color>
+    <color name="new_orleans_pelicans_gold">#85714D</color>
+
+    <!-- New York Knicks -->
+    <color name="new_york_knicks_blue">#006BB6</color>
+    <color name="new_york_knicks_orange">#FF671F</color>
+    <color name="new_york_knicks_white">#FFFFFF</color>
+
+    <!-- Oklahoma City Thunder -->
+    <color name="oklahoma_city_thunder_navy">#007AC1</color>
+    <color name="oklahoma_city_thunder_sunset">#EF3B24</color>
+
+    <!-- Orlando Magic -->
+    <color name="orlando_magic_blue">#0077C0</color>
+    <color name="orlando_magic_black">#000000</color>
+    <color name="orlando_magic_silver">#C4CED4</color>
+    <color name="orlando_magic_white">#FFFFFF</color>
+
+    <!-- Philadelphia 76ers -->
+    <color name="philadelphia_76ers_blue">#006BB6</color>
+    <color name="philadelphia_76ers_red">#ED174C</color>
+    <color name="philadelphia_76ers_white">#FFFFFF</color>
+
+    <!-- Phoenix Suns -->
+    <color name="phoenix_suns_purple">#1D1160</color>
+    <color name="phoenix_suns_orange">#E56020</color>
+    <color name="phoenix_suns_black">#000000</color>
+
+    <!-- Portland Trail Blazers -->
+    <color name="portland_trail_blazers_red">#E03A3E</color>
+    <color name="portland_trail_blazers_black">#000000</color>
+
+    <!-- Sacramento Kings -->
+    <color name="sacramento_kings_purple">#5A2D81</color>
+    <color name="sacramento_kings_black">#63727A</color>
+    <color name="sacramento_kings_white">#C4CED4</color>
+    <color name="sacramento_kings_silver">#000000</color>
+
+    <!-- San Antonio Spurs -->
+    <color name="san_antonio_spurs_silver">#C4CED4</color>
+    <color name="san_antonio_spurs_black">#000000</color>
+
+    <!-- Toronto Raptors -->
+    <color name="toronto_raptors_red">#CE1141</color>
+    <color name="toronto_raptors_black">#000000</color>
+    <color name="toronto_raptors_gold">#FFD700</color>
+
+    <!-- Utah Jazz -->
+    <color name="utah_jazz_navy">#002B5C</color>
+    <color name="utah_jazz_gold">#F9A01B</color>
+    <color name="utah_jazz_green">#00471B</color>
+    <color name="utah_jazz_white">#FFFFFF</color>
+
+    <!-- Washington Wizards -->
+    <color name="washington_wizards_red">#E31837</color>
+    <color name="washington_wizards_blue">#002B5C</color>
+    <color name="washington_wizards_white">#FFFFFF</color>
+
 </resources>

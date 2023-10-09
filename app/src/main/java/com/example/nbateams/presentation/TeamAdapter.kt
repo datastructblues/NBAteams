@@ -1,5 +1,6 @@
 package com.example.nbateams.presentation
 
+import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -10,7 +11,10 @@ import com.example.nbateams.R
 import com.example.nbateams.data.model.Team
 import de.hdodenhof.circleimageview.CircleImageView
 
-class TeamAdapter(private val teams: List<Team>) : RecyclerView.Adapter<TeamAdapter.TeamViewHolder>() {
+class TeamAdapter(
+    private var teams: List<Team>,
+    private val onItemClick: (Team) -> Unit
+    ) : RecyclerView.Adapter<TeamAdapter.TeamViewHolder>() {
     // Diğer metotlar ve işlemler...
 
 
@@ -18,6 +22,15 @@ class TeamAdapter(private val teams: List<Team>) : RecyclerView.Adapter<TeamAdap
         val teamName = itemView.findViewById<TextView>(R.id.team_name)
         val teamLogo = itemView.findViewById<CircleImageView>(R.id.team_logo)
         // Diğer görünümler burada tanımlanabilir.
+        init {
+            itemView.setOnClickListener {
+                val position = adapterPosition
+                if (position != RecyclerView.NO_POSITION) {
+                    val team = teams[position]
+                    onItemClick(team)
+                }
+            }
+        }
     }
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TeamViewHolder {
         val itemView = LayoutInflater.from(parent.context).inflate(R.layout.team_item, parent, false)
@@ -33,5 +46,11 @@ class TeamAdapter(private val teams: List<Team>) : RecyclerView.Adapter<TeamAdap
 
     override fun getItemCount(): Int {
         return teams.size
+    }
+
+    @SuppressLint("NotifyDataSetChanged")
+    fun setItemValues(){
+        this.teams = teams
+        notifyDataSetChanged()
     }
 }
