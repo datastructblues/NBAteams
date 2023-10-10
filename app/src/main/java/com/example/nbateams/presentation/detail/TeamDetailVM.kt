@@ -1,4 +1,4 @@
-package com.example.nbateams.presentation
+package com.example.nbateams.presentation.detail
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel

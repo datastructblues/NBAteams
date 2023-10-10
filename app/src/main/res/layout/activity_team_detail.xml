@@ -2,12 +2,12 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".presentation.TeamDetailActivity">
+    tools:context=".presentation.detail.TeamDetailActivity">
 
   <data>
     <variable
         name="viewModel"
-        type="com.example.nbateams.presentation.TeamDetailVM" />
+        type="com.example.nbateams.presentation.detail.TeamDetailVM" />
 
 
   </data>

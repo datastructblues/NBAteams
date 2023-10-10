@@ -1,10 +1,8 @@
-package com.example.nbateams.presentation
+package com.example.nbateams.presentation.detail
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.window.OnBackInvokedDispatcher
 import androidx.activity.viewModels
-import com.example.nbateams.R
 import com.example.nbateams.data.model.Team
 import com.example.nbateams.databinding.ActivityTeamDetailBinding
 

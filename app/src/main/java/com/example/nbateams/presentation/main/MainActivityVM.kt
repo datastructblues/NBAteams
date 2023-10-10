@@ -1,7 +1,6 @@
-package com.example.nbateams.presentation
+package com.example.nbateams.presentation.main
 
 import android.util.Log
-import androidx.databinding.ObservableField
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel

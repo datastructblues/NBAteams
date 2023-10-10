@@ -1,4 +1,4 @@
-package com.example.nbateams.presentation
+package com.example.nbateams.presentation.main
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
@@ -37,7 +37,7 @@ class TeamAdapter(
         return TeamViewHolder(itemView)
     }
 
-    override fun onBindViewHolder(holder: TeamAdapter.TeamViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: TeamViewHolder, position: Int) {
         val currentTeam = teams[position]
         holder.teamName.text = currentTeam.name
         //load image with glide
