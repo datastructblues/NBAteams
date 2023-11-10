@@ -56,7 +56,7 @@ class MainActivity : AppCompatActivity() {
     private fun onTeamClicked(team: Team) {
         val dialog = CustomBottomSheetDialog(this, team)
         val view = layoutInflater.inflate(R.layout.bottomsheet, null)
-
+        dialog.window?.setBackgroundDrawableResource(android.R.color.transparent);
 
         dialog.setCancelable(true)
         dialog.setCanceledOnTouchOutside(true)
@@ -75,6 +75,7 @@ class CustomBottomSheetDialog(context: Context, private val team: Team) : Bottom
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val view = layoutInflater.inflate(R.layout.bottomsheet, null)
+        //r
 
         val teamName = view.findViewById<TextView>(R.id.team_name)
         teamName.text = team.name
@@ -83,25 +84,25 @@ class CustomBottomSheetDialog(context: Context, private val team: Team) : Bottom
         Glide.with(context).load(team.logo).into(teamLogo)
 
         val established = view.findViewById<TextView>(R.id.established)
-        established.text = team.established
+        established.text = "Established: ${team.established}"
 
         val arena = view.findViewById<TextView>(R.id.arena)
-        arena.text = team.arena
+        arena.text = "Arena: ${team.arena}"
 
         val championship = view.findViewById<TextView>(R.id.championship)
-        championship.text = team.championship
+        championship.text = "Championship: ${team.championship}"
 
         val franchiseStar = view.findViewById<TextView>(R.id.franchise_star)
-        franchiseStar.text = team.franchise_star
+        franchiseStar.text = "Franchise Star: ${team.franchise_star}"
 
         val retired = view.findViewById<TextView>(R.id.retired_numbers)
-        retired.text = team.retired.toString()
+        retired.text = "Retired Numbers: ${team.retired}"
 
         val mascot = view.findViewById<TextView>(R.id.mascot)
-        mascot.text = team.mascot
+        mascot.text = "Mascot: ${team.mascot}"
 
         val gLeagueTeam = view.findViewById<TextView>(R.id.g_league)
-        gLeagueTeam.text = team.gleague_team
+        gLeagueTeam.text = "G League Team: ${team.gleague_team}"
 
 
 
